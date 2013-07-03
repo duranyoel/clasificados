@@ -32,6 +32,19 @@ header nav{
     margin-right: auto;
    
 }
+#masvisitados{
+    width: 100%;
+    height: 125px;
+    background: #FFF;
+    margin-top: 5px;
+    box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
+}
+#masvisitados ul li{
+    list-style: none;
+    width: 150px;
+    padding: 5px;
+    display: inline-block;
+}
 #top{
     box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
     text-decoration: none;
@@ -250,4 +263,9 @@ footer section ul li{
 footer section p{
     text-align: justify;
     font-size: 12px;
+}
+footer #pie{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
