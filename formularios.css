@@ -1,0 +1,102 @@
+/* 
+    Document   : formularios
+    Created on : 23/06/2013, 07:48:20 AM
+    Author     : yoelduran
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+article form {
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius:5px;
+    border:double 1px darkgrey;
+    padding: 5px;
+    background: #FFF;
+    box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
+}
+form #buscador{
+     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius:5px;
+    border:double 1px darkgrey;
+    padding: 5px;
+    box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
+    width: 300px;
+    height: 25px;
+}
+input[type="text"],input[type=password]{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius:5px;
+    border:double 1px darkgrey;
+    padding: 5px;
+    box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
+
+}
+input[type="text"]:focus,input[type=password]:focus{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius:5px;
+    border:double 1px activeborder;
+    padding: 5px;
+    box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
+}
+select{
+    width: 150px;
+    height: 25px;
+}
+input[type="submit"]{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius:5px;
+    border:none;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
+    cursor: pointer;
+    background: url('imagenes/menu.jpg');
+    color: #fff;
+}
+input[type="submit"]:hover{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius:5px;
+    font-weight: bold;
+    border:none;
+    box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
+    background: url('imagenes/bgboton.gif');
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+article table th{
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#pielogin{
+    position: relative;
+    background: url("imagenes/descarga.png") repeat-x;
+    
+    padding: 10px;
+}
+#pielogin a{
+    color: #FFF;
+    text-decoration: none;
+}

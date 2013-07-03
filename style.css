@@ -1,0 +1,253 @@
+/* 
+    Document   : style
+    Created on : 16/06/2013, 07:42:44 PM
+    Author     : yoelduran
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    background: url('imagenes/body.png') repeat;
+}
+
+p{
+    text-align: justify;
+}
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header{
+     background: #FFF;
+}
+header nav{
+    width: 1000px;
+    height: 109px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+#top{
+    box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius:15px;
+    padding: 20px;
+    background: url("imagenes/enc2.png") repeat;
+    position: relative;
+    width: 150px;
+    float: right;
+    margin: 20px;
+}
+#top:hover{
+    box-shadow: 1px 3px 3px hsla(0,0%,0%,0.5);
+    background: url('imagenes/bgboton.gif');
+   
+}
+#logo{
+    float: left;
+    width: 300px;
+    padding: 20px;
+}
+#separador{
+    border: 1px solid rgb(189, 189, 189);
+    height: 5px;
+    background: url('imagenes/menu.gif') repeat-x;
+    box-shadow: 0 6px 8px hsla(0,0%,0%,0.5);
+}
+#filtros{
+    float: left;
+    width: 200px;
+    
+    position: relative;
+    margin: 5px;
+    border: black;
+   
+}
+#filtros nav section{
+    box-shadow: 0 6px 8px hsla(0,0%,0%,0.5);
+    background: hsla(21, 0%, 100%, 1);
+    border-left: 1px solid rgb(189, 189, 189);
+    border-right: 1px solid rgb(189, 189, 189);
+    border-bottom: 1px solid rgb(189, 189, 189);
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+#filtros nav section h4{
+    margin-top: -3px;
+    text-align: left;
+    box-shadow: 0 2px 8px hsla(0,0%,0%,0.5);
+    background: url('imagenes/des2.png') repeat-x;
+    color: #fff;
+    padding: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(189, 189, 189);
+}
+#filtros nav section ul li{
+    list-style: none;
+    background: url('imagenes/arrows.png') no-repeat left 2px;
+    height: 20px;
+    margin-top: 5px;
+}
+#filtros nav section ul li a{
+    padding:0 0 0 20px;
+    text-decoration: none;
+    
+}
+#filtros nav section ul li a:hover{
+    background: url('imagenes/flecha.png') no-repeat left 2px;
+    font-weight: bold;
+}
+
+/*Articulos*/
+article{
+    width: 570px;
+    float: left;
+    position: relative;
+   
+}
+
+article section{
+    width: 560px;
+    float: left;  
+    margin: 5px;
+    font-size: 14px;
+    
+}
+article section ul{
+    list-style: none;
+    margin-left: -30px;
+}
+article section img {
+    float: left;
+    width: 100px;
+}
+article section  li{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-top: 10px;
+    background: #fff;
+    box-shadow: 0 6px 8px hsla(0,0%,0%,0.5);
+    position: relative;
+    padding-top: 20px;
+    background: url('imagenes/bg.jpg') repeat-x;
+}
+article section li:hover{
+    background: #FFF;
+}
+#art{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#tit{
+    font-size: 18px;
+    font-weight: bold;
+}
+#desc{
+    float: left;
+    width: 300px;
+    position: relative;
+}
+/*Lado derecho */
+aside{
+   width: 200px;
+   float: right;
+   margin-right: 5px;
+}
+aside section{
+    position: relative;
+    box-shadow: 0 6px 8px hsla(0,0%,0%,0.5);
+     -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: hsla(21, 0%, 100%, 1);
+   border-bottom: 1px solid rgb(189, 189, 189);
+   border-left: 1px solid rgb(189, 189, 189);
+   border-right: 1px solid rgb(189, 189, 189);
+}
+aside ul{
+    list-style: none;
+    margin-left: -30px;
+}
+aside ul li img{
+    width: 180px;
+}
+aside h4{
+    margin-top: -3px;
+    text-align: left;
+    box-shadow: 0 2px 8px hsla(0,0%,0%,0.5);
+    background: url('imagenes/des2.png') repeat-x;
+    color: #fff;
+    padding: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(189, 189, 189);
+}
+/*pie de pagina*/
+footer{
+    height: 150px;
+    background: url('imagenes/enc2.png') repeat-x;
+    color: #fff;
+    font-family: sans-serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+
+}
+footer section{
+    padding: 20px;
+    width: 250px;
+    position: relative;
+    float: left;
+}
+footer section h4{
+    text-transform: uppercase;
+}
+footer section ul {
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+
+}
+footer section ul li{
+    padding: 2px;
+}
+footer section p{
+    text-align: justify;
+    font-size: 12px;
+}
